@@ -1,0 +1,166 @@
+{
+  "eventId": "match-sample-1",
+  "type": "match.finished",
+  "match": {
+    "matchId": "match-sample-1",
+    "roomCode": "HSGG",
+    "startedAtMs": 1794400000000,
+    "endedAtMs": 1794400600000,
+    "players": [
+      {
+        "playerId": 1,
+        "name": "Alice",
+        "position": 1,
+        "bot": false,
+        "score": 1
+      },
+      {
+        "playerId": 2,
+        "name": "Bob",
+        "position": 2,
+        "bot": false,
+        "score": 16
+      }
+    ],
+    "games": [
+      {
+        "boardId": 1,
+        "gameNumber": 1,
+        "whiteId": 1,
+        "blackId": 2,
+        "result": "BLACK_WON",
+        "events": [
+          {
+            "type": "MOVE",
+            "playerId": 1,
+            "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "uci": "f2f3",
+            "thinkMs": 2000,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400002000
+          },
+          {
+            "type": "MOVE",
+            "playerId": 2,
+            "fenBefore": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "uci": "e7e5",
+            "thinkMs": 2700,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400004700
+          },
+          {
+            "type": "MOVE",
+            "playerId": 1,
+            "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+            "uci": "g2g4",
+            "thinkMs": 3400,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400008100
+          },
+          {
+            "type": "MOVE",
+            "playerId": 2,
+            "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+            "uci": "d8h4",
+            "thinkMs": 4100,
+            "captured": null,
+            "points": 15,
+            "bounty": false,
+            "checkmate": true,
+            "atEpochMs": 1794400012200
+          }
+        ]
+      },
+      {
+        "boardId": 1,
+        "gameNumber": 2,
+        "whiteId": 2,
+        "blackId": 1,
+        "result": "UNFINISHED",
+        "events": [
+          {
+            "type": "MOVE",
+            "playerId": 2,
+            "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "uci": "e2e4",
+            "thinkMs": 2000,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400014200
+          },
+          {
+            "type": "MOVE",
+            "playerId": 1,
+            "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+            "uci": "d7d5",
+            "thinkMs": 2700,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400016900
+          },
+          {
+            "type": "MOVE",
+            "playerId": 2,
+            "fenBefore": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+            "uci": "e4d5",
+            "thinkMs": 3400,
+            "captured": "PAWN",
+            "points": 1,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400020300
+          },
+          {
+            "type": "TIMEOUT_PASS",
+            "playerId": 1,
+            "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+            "uci": null,
+            "thinkMs": 60000,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400080300
+          },
+          {
+            "type": "MOVE",
+            "playerId": 2,
+            "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+            "uci": "b1c3",
+            "thinkMs": 4100,
+            "captured": null,
+            "points": 0,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400084400
+          },
+          {
+            "type": "MOVE",
+            "playerId": 1,
+            "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+            "uci": "d8d5",
+            "thinkMs": 4800,
+            "captured": "PAWN",
+            "points": 1,
+            "bounty": false,
+            "checkmate": false,
+            "atEpochMs": 1794400089200
+          }
+        ]
+      }
+    ]
+  }
+}
